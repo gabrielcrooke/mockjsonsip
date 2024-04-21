@@ -1,0 +1,74 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "name": "John",
+      "lastname": "Doe",
+      "email": "john.doe@example.com",
+      "phonenumber": "+1234567890",
+      "birthdate" : "1990-05-15",
+      "sex": "masculino",
+      "profilepicture": "https://example.com/profiles/john_doe.jpg",
+      "password": "hashed_password_here",
+      "payment_methods": [
+        {
+          "customer_id": 1,
+          "card_number": "1234 5678 9012 3456",
+          "month_exp": 12,
+          "year_exp": 2026
+        },
+        {
+          "customr_id": 1,
+          "card_number": "9876 5432 1098 7654",
+          "month_exp": 10,
+          "year_exp": 2025
+        }
+      ],
+      "balance_available": 500.00,
+      "active_tickets": [
+        {
+          "ticket_id": "TKT123456",
+          "customer_id": 1,
+          "departure_date": "2024-04-25",
+          "departure_location": "New York",
+          "destination": "Los Angeles",
+          "price": 200.00,
+          "transacNo": 4379
+        }
+      ],
+      "used_tickets": [
+        {
+          "ticket_id": "TKT987654",
+          "customer_id": 1,
+          "departure_date": "2024-04-18",
+          "departure_location": "Los Angeles",
+          "destination": "New York",
+          "price": 200.00,
+          "transacNo": 4380
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Jane",
+      "lastname": "Smith",
+      "email": "jane.smith@example.com",
+      "phonenumber": "+1987654321",
+      "birthdate" : "1997-08-22",
+      "sex": "femenino",
+      "profilepicture": "https://example.com/profiles/jane_smith.jpg",
+      "password": "hashed_password_here",
+      "payment_methods": [
+        {
+          "customr_id": 2,
+          "card_number": "2468 1357 9021 3579",
+          "month_exp": 9,
+          "year_exp": 2027
+        }
+      ],
+      "balance_available": 750.00,
+      "active_tickets": [],
+      "used_tickets": []
+    }
+  ]
+}
